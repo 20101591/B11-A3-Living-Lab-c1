@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Browse Pets</title>
+    <!-- Google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=ADLaM+Display&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap" rel="stylesheet">
+
+    <!-- daisyUI -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- icons -->
+    <script src="https://kit.fontawesome.com/a3afa04b4b.js" crossorigin="anonymous"></script>
+    <!-- fonts style -->
+    <style>
+        .font-adlam {
+            font-family: "ADLaM Display", serif;
+        }
+
+        .font-sora {
+            font-family: "Sora", serif;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav class="font-sora lg:px-20 bg-orange-50">
+            <div class="navbar">
+                <div class="flex-1">
+                    <img class="size-12" src="c1-assets/logo-header.png" alt="">
+                    <a class="btn btn-ghost hidden lg:flex font-normal text-lg">Browse<span
+                            class="text-yellow-300 -mx-2">4</span>Pets</a>
+                </div>
+                <div class="navbar-center hidden lg:flex">
+                    <ul class="menu menu-horizontal px-1">
+                        <li><a>Find a pet</a></li>
+                        <li><a>Breeds</a></li>
+                        <li><a>Contact us</a></li>
+                    </ul>
+                </div>
+                <div class="navbar-end hidden lg:flex gap-x-3 h-7 w-1/3">
+                    <a href=""><i class="fa-solid fa-bell"></i></a>
+                    <a href=""><i class="fa-solid fa-magnifying-glass"></i></a>
+                    <a class="btn border p-2.5 bg-transparent border-yellow-300 font-normal">Login</a>
+                    <a class="btn p-2.5 bg-yellow-300 font-normal">Register</a>
+                </div>
+                <div class="dropdown lg:hidden">
+                    <div tabindex="0" role="button" class="btn btn-ghost">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                            stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M4 6h16M4 12h8m-8 6h16" />
+                        </svg>
+                    </div>
+                    <ul tabindex="0"
+                        class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-auto p-2 shadow">
+                        <li><a>Find a pet</a></li>
+                        <li><a>Breeds</a></li>
+                        <li><a>Contact us</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- banner section -->
+        <section class="container md:mx-auto">
+            <div class="hero relative">
+                <div class="hero-content flex flex-col">
+                    <div class=" absolute  lg:absolute lg:max-w-screen-sm inset-10">
+                        <h1 class="font-adlam text-2xl lg:text-6xl">Pamper Your Pet,
+                            <br> Because They Deserve the Best</h1>
+                        <p class=" font-sora text-base opacity-70 py-6 lg:text-sm">
+                            Discover a world of treats, toys, and essentials handpicked for your furry friends. Shop now
+                            and make tails wag with joy!
+                        </p>
+                        <button class="btn p-2 bg-yellow-300 font-sora text-xs">Find a pet</button>
+                    </div>
+                    <img src="c1-assets/cat-big.png" class=" h-auto bg-transparent mt-36 lg:mt-0" />
+                </div>
+            </div>
+        </section>
+    </header>
+    <main>
+
+    </main>
+    <footer>
+
+    </footer>
+
+</body>
+
+</html>
