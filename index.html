@@ -32,7 +32,7 @@
 
 <body>
     <header class="overflow-hidden">
-        <nav class="font-sora  bg-orange-50 border-b border-black lg:px-20 lg:border-b-0">
+        <nav class="font-sora bg-orange-50 border-b border-black lg:px-20 lg:border-b-0">
             <div class="navbar">
                 <div class="flex-1">
                     <img class="size-12" src="c1-assets/logo-header.png" alt="">
@@ -49,7 +49,8 @@
                 <div class="navbar-end hidden lg:flex gap-x-3 h-7 w-1/3">
                     <a href=""><i class="fa-solid fa-bell"></i></a>
                     <a href=""><i class="fa-solid fa-magnifying-glass"></i></a>
-                    <a class="btn border p-2.5 bg-transparent border-yellow-300 font-sora font-normal text-base">Login</a>
+                    <a
+                        class="btn border p-2.5 bg-transparent border-yellow-300 font-sora font-normal text-base">Login</a>
                     <a class="btn p-2.5 bg-yellow-300 font-sora font-normal text-base">Register</a>
                 </div>
                 <div class="dropdown lg:hidden">
@@ -299,8 +300,8 @@
             </div>
         </section>
         <!-- Everyday section -->
-        <section class="container md:mx-auto my-20">
-            <h1 class="font-adlam text-2xl lg:text-4xl my-0 py-7">Everyday low Price</h1>
+        <section class="container md:mx-auto mt-20">
+            <h1 class="font-adlam text-2xl lg:text-4xl my-5 py-7">Everyday low Price</h1>
             <div class="flex flex-col lg:flex-row justify-center items-center gap-y-7 lg:gap-x-7">
                 <!-- first box -->
                 <div class="bg-gradient-to-r from-pink-200 to-blue-200 w-full lg:w-2/3 rounded-lg">
@@ -334,18 +335,52 @@
     </main>
     <footer>
         <!-- Newsletter section -->
-        <section class=" bg-orange-50 container md:mx-auto my-20 rounded-2xl">
+        <section class=" bg-orange-50 container md:mx-auto mb-20 rounded-2xl translate-y-[50%]">
             <div class="lg:justify-evenly flex flex-col lg:flex-row justify-center items-center py-12">
                 <div>
                     <img src="c1-assets/cute-pet-mid.png" alt="">
-                </div>        
+                </div>
                 <div class="lg:pr-48 text-center lg:text-start">
                     <h6 class="font-adlam text-2xl lg:text-4xl my-0 py-7">Get Pawsome News!</h6>
                     <h6 class="font-sora text-xl pb-5">Exclusive training tips, ticks, product deals and more</h6>
-                    <input type="text" class="mb-5 p-3 w-full rounded-lg" placeholder="Enter email...."/>
+                    <input type="text" class="mb-5 p-3 w-full rounded-lg" placeholder="Enter email...." />
                     <br>
-                    <button class="p-2 w-auto mx-auto rounded-lg bg-yellow-300 font-sora font-normal text-base">Subscribe</button>
+                    <button
+                        class="p-2 w-auto mx-auto rounded-lg bg-yellow-300 font-sora font-normal text-base">Subscribe</button>
                 </div>
+        </section>
+        <!-- hero section -->
+        <section class="font-sora bg-yellow-200 pt-80 pb-36 lg:px-20 lg:border-b-0" >
+            <div class="grid grid-cols-3 justify-items-center">
+                <!-- logo part -->
+                <div>
+                    <div class="flex">
+                        <img src="c1-assets/logo-footer.png" alt="" />
+                        <a class="btn btn-ghost hidden lg:flex font-normal text-lg">Browse<span
+                                class="text-yellow-400 -mx-2">4</span>Pets</a>
+                    </div>
+                    <p>
+                        Discover a world of treats, toys, and essentials handpicked for your furry friends
+                    </p>
+                </div>
+                <!-- services -->
+                <div class="flex flex-col justify-center gap-2">
+                    <a href="#">Find a pet</a>
+                    <a href="#">Breeds</a>
+                    <a href="#">Contact us</a>
+                </div>
+                <!--social links -->
+                <div class="flex flex-col items-center justify-end text-left">
+                    <h1>Follow us</h1>
+                    <div class="social-links">
+                        <i class="fa-brands fa-facebook-f"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-linkedin-in"></i>
+                        <i class="fa-brands fa-youtube"></i>
+
+                    </div>
+                </div>
+            </div>
         </section>
 
     </footer>
